@@ -1,0 +1,16 @@
+.consultas{
+    padding: 120px;
+    margin: 0;
+    background: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textoConsultas h1{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}

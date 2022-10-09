@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="icon" href="img/BodegaVegaLogo2.png">
+    <script src="https://kit.fontawesome.com/de2d455875.js" crossorigin="anonymous"></script>
+    <title>Bodega Vega</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="img/BodegaVegaLogo3.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="servicio.html">Servicio</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="consultas.html">Consultas</a></li>
+        </ul>
+    </nav>
+    <section class="galeria">
+        <div class="textoGaleria">
+            <h1>Nuestros Productos esperan por ti</h1>
+            <hr>
+            <h2>Te los presentamos</h2>
+        </div>
+        <div id="conteItemsCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel-1">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                    <img src="./img/Abarrotes2.png" alt="item-1-Carrousel">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-3">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel-2">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <img src="./img/Bebida2.png" alt="item-2-Carrousel">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-3">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel-3">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                    <img src="./img/Detergente2.png" alt="item-3-Carrousel">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </a>
+                    <a href="#itemCarrusel-1">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="contePuntos">
+            <a href="#itemCarrusel-1">•</a>
+            <a href="#itemCarrusel-2">•</a>
+            <a href="#itemCarrusel-3">•</a>
+        </div>
+        <hr>
+    </section>
+</body>
+</html>

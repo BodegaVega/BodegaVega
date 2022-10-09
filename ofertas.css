@@ -1,0 +1,52 @@
+.ofertas{
+    padding: 120px;
+    margin: 0;
+    background: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textoOfertas h1{
+    font-family: 'Segoe UI';
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textoOfertas h2{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #378fae;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.primeraof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.segundaof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.terceraof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
